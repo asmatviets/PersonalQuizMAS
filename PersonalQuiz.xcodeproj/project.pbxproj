@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AEEE23329E2D1FB00A45386 /* Exentsion + Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEE23229E2D1FB00A45386 /* Exentsion + Array.swift */; };
 		A83F5D9E29DF3D1F00F58A5F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83F5D9D29DF3D1F00F58A5F /* ResultViewController.swift */; };
 		A86E958C29DB32E5000A9FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86E958B29DB32E5000A9FC2 /* AppDelegate.swift */; };
 		A86E958E29DB32E5000A9FC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86E958D29DB32E5000A9FC2 /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AEEE23229E2D1FB00A45386 /* Exentsion + Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exentsion + Array.swift"; sourceTree = "<group>"; };
 		A83F5D9D29DF3D1F00F58A5F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		A86E958829DB32E5000A9FC2 /* PersonalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86E958B29DB32E5000A9FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AEEE23429E2D20400A45386 /* Exentions */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEE23229E2D1FB00A45386 /* Exentsion + Array.swift */,
+			);
+			path = Exentions;
+			sourceTree = "<group>";
+		};
 		A86E957F29DB32E5000A9FC2 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				A86E95A129DB56A9000A9FC2 /* ViewControllers */,
+				1AEEE23429E2D20400A45386 /* Exentions */,
 				A86E95A229DB56C5000A9FC2 /* Models */,
 				A86E95A029DB5684000A9FC2 /* Storyboards */,
 				A86E959F29DB564E000A9FC2 /* App */,
@@ -181,6 +192,7 @@
 				A86E95A429DB575C000A9FC2 /* Question.swift in Sources */,
 				A86E958C29DB32E5000A9FC2 /* AppDelegate.swift in Sources */,
 				A86E958E29DB32E5000A9FC2 /* SceneDelegate.swift in Sources */,
+				1AEEE23329E2D1FB00A45386 /* Exentsion + Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
